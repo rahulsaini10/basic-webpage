@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<head>
+
+    <title>Basic Wwbsite Layout</title>
+    <style>
+        body {
+            font-family: arial, helvetica;
+            background: slategray;
+            margin: 0;
+            padding: 0;
+        }
+
+        #wrapper {
+            border: 0px solid black;
+            width: 1000px;
+            background: white;
+            margin: 0 auto;
+        }
+
+        #header {
+            background: crimson;
+            color: white;
+            height: 100px;
+        }
+        #header h1{
+            padding: 30px 0 0 20px;
+        }
+
+        #menu {
+            background: lightsalmon;
+        }
+        #menu ul{
+            padding: 0;
+            margin: 0;
+        }
+
+        #menu li {
+            display: inline-block;
+        }
+
+        #menu li a {
+            display: inline-block;
+            padding: 10px 13px;
+            text-decoration: none;
+            color: black;
+        }
+        #menu li a:hover{
+            background: crimson;
+            color: white;
+        }
+
+        #content {
+            width: 800px;
+            min-height: 500px;
+            float: left;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        #sidebar {
+            background: lightblue;
+            width: 200px;
+            min-height: 500px;
+            float: right;
+        }
+        #sidebar a{
+            text-decoration: none;
+            color: black;
+        }
+
+        #footbar {
+            background: lightsalmon;
+            clear: both;
+            padding: 5px 10px;
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <h1>Rahul Saini</h1>
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Gallery</a></li>
+                <li><a href="">Contact Us</a></li>
+
+            </ul>
+        </div>
+        <div id="content">
+            <h2>Design Basic Layout</h2>
+            <p>The Blue Whales just played their first baseball game of the new season; I believe there is much to be
+                excited about. Although they lost, it was against an excellent team that had won the championship last
+                year. The Blue Whales fell behind early but showed excellent teamwork and came back to tie the game. The
+                team had 15 hits and scored 8 runs. That’s excellent! Unfortunately, they had 5 fielding errors, which
+                kept the other team in the lead the entire game. </p>
+            <p>The school fair is right around the corner, and tickets have just gone on sale. We are selling a limited
+                number of tickets at a discount, so move fast and get yours while they are still available. This is
+                going to be an event you will not want to miss! First off, the school fair is a great value when
+                compared with other forms of entertainment. Also, your ticket purchase will help our school, and when
+                you help the school, it helps the entire community.</p>
+        </div>
+        <div id="sidebar">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Gallery</a></li>
+                <li><a href="">Contact Us</a></li>
+
+            </ul>
+        </div>
+
+        <div id="footbar">
+            rkst31424@gmail.com
+        </div>
+    </div>
+
+</body>
+
+</html>
